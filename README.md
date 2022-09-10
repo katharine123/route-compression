@@ -1,0 +1,5 @@
+This project is a route compression program that converts terrestrial IPv4 prefixes into intervals and aggregates, thus achieving the goal of 'satellite' on terrestrial routing.
+At present, the open source code only includes route compression and interval query, which will be sorted and updated later.lib contains global functions; zip contains functions used in the compression process, compress.py is the compression process; verify contains functions used for interval query, verify_result.py uses the interval query algorithm to verify whether the distance between the original prefix and the compressed prefix is within the threshold. Inside.
+
+本项目是一个压缩地面路由的程序，将地面IPv4前缀转换为区间并聚合，从而实现地面路由上'天'的目标。
+目前开源代码只包含路由压缩和区间查询，后续将继续整理更新。其中lib包含全局使用的函数；zip包含压缩过程中的使用的函数，compress.py是总的压缩过程；verify内包含区间查询过程中的函数，verify_result.py是利用区间查询算法验证压缩前后，前缀的距离是否在规定范围内的程序。
